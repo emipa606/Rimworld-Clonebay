@@ -7,6 +7,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -19,5 +20,9 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
+  <loadBefore>
+    <li>Ykara.EPOE</li>
+    <li>vat.epoeforked</li>
+  </loadBefore>
   <description>Adds in simple, streamlined ressurection of properly equipped colonists via brain scanning and cloning. See Workshop page for in-depth details.</description>
 </ModMetaData>
